@@ -1,0 +1,7 @@
+adaugarea de rating + review
+
+generare de txt cu lista de filme
+
+sectiune de film recomandat
+pentru fiecare client 
+in functie de gen

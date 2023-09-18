@@ -1,0 +1,8 @@
+Adaugare de actori si pagini despre actori
+
+Adaugare algoritm care detecteaza cel mai popular actor din filmele existente pe site 
+
+Generare xml cu raport catre admin despre cati clienti sunt logati pe site si ce gen prefera fiecare
+
+//Adaugare la pagina de main un carusel cu filme
+//Algoritmi de cautare film dupa gen si dupa nume
