@@ -92,7 +92,7 @@ class Search extends React.Component {
                         }       
                     );
                     console.log(val);
-                    //console.log(this.state);
+                    console.log(this.state.actors.imagePatha);
                 }
             )
             .catch(error => {

@@ -13,6 +13,6 @@ public class ActorDTO {
     private String nume;
     private int varsta;
     private String istoric;
-    private String imagePath;
+    private String imagePatha;
 
 }

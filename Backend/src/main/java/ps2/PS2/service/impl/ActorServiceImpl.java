@@ -20,7 +20,7 @@ public class ActorServiceImpl implements ActorService {
 
     @Override
     public Actor addActor(ActorDTO actorDto) {
-        Actor actor= new Actor(actorDto.getNume(),actorDto.getVarsta(),actorDto.getIstoric(),actorDto.getImagePath());
+        Actor actor= new Actor(actorDto.getNume(),actorDto.getVarsta(),actorDto.getIstoric(),actorDto.getImagePatha());
         return actorRepository.save(actor);
     }
 

@@ -1,4 +1,4 @@
-import { AccountCircle } from '@mui/icons-material'
+import { AccountCircle, Height } from '@mui/icons-material'
 import { Alert, AppBar, Autocomplete, Box, Button, CardMedia, IconButton, Menu, MenuItem, Snackbar, TextField, Toolbar, Typography } from '@mui/material'
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -18,6 +18,7 @@ class Movie extends React.Component {
          movie:[]
         }
     }
+ 
     
     handleHome = () => {
         console.log("handleHome");
@@ -143,6 +144,7 @@ class Movie extends React.Component {
                 );
                 console.log(val);
                 console.log(this.state);
+                console.log(this.state.movie.imagePath);
             }
         )
         .catch(error => {
@@ -228,7 +230,9 @@ class Movie extends React.Component {
                             <Box className={classes.image_box}>
                                 <CardMedia
                                     component="img"
-                                    image={this.state.movie.imagePath} />
+                                    image={this.state.movie.imagePath} 
+                                    
+                                />
                             </Box>
                         </div>
 
